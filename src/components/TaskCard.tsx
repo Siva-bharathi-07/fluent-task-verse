@@ -95,7 +95,7 @@ const TaskCard = ({ task, currentUser, onUpdate, onDelete }: TaskCardProps) => {
                   {task.title}
                 </h3>
                 {isShared && (
-                  <Share2 className="h-4 w-4 text-blue-500" title="Shared task" />
+                  <Share2 className="h-4 w-4 text-blue-500" />
                 )}
               </div>
               
